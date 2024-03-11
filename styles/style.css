@@ -1,0 +1,42 @@
+/*eksternal css yaitu kode css yang penulisannya diluar file html (di dalam file css)*/
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+/*eksternal css untuk mengatur border pada class kotak */
+.kotak {
+    border: solid 8px white; 
+    width: 500px; 
+    border-radius: 25px;   
+}
+/*eksternal css untuk mengatur gambar */
+.kotak img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+}
+/*eksternal css untuk mengatur judul dan paragraf yang ada di class neko */
+.neko {
+    align-items: center;
+    color: white;
+}
+/*eksternal css untuk mengatur judul */
+.judul {
+    color: aqua;
+}
+/*eksternal css untuk mengatur paragraf */
+p {
+    padding: 10px;
+}
+/*eksternal css untuk mengatur semua yang ada didalam body */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+}
