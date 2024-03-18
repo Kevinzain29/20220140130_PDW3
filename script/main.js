@@ -1,3 +1,4 @@
+/*eksternal javascript untuk menampilkan tanggal dan waktu*/
 const waktu = document.getElementById("waktu");
 
 function tanggal() {
