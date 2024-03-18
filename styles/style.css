@@ -6,16 +6,15 @@
 }
 /*eksternal css untuk mengatur border pada class kotak */
 .kotak {
-    border: solid 8px white; 
+    border: solid 7px white; 
     width: 500px; 
-    border-radius: 25px;   
-}
+    border-radius: 25px;}
 /*eksternal css untuk mengatur gambar */
 .kotak img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    width: 100%;
-    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 500px;
+    height: 300px;
 }
 /*eksternal css untuk mengatur judul dan paragraf yang ada di class neko */
 .neko {
@@ -40,3 +39,26 @@ body {
     background-color: gray;
     text-align: center;
 }
+/*eksternal css untuk mengatur tombol login */
+.login {
+   padding: 20px;
+   border-radius: 10px;
+}
+/*eksternal css untuk mengatur bagian username, password, dan button*/
+.login input[type="text"],
+.login input[type="password"]
+.login button {
+    width: 100%;
+    padding: 1px;
+    margin: 5px 0;
+    border-radius: border-box;
+   
+}
+/*eksternal css untuk mengatur tombol login */
+.login button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: bisque;
+}
+
